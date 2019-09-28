@@ -11,6 +11,7 @@ class Triangle
     
     if side_a <= 0 || side_b <= 0 || side_c <= 0 
       raise TriangleError
+    elsif
       
     
   end 
