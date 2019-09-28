@@ -8,9 +8,6 @@ class Triangle
   end
   
   class PartnerError < StandardError
-    def message
-    
-  end
   end
   
 end
