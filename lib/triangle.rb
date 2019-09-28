@@ -19,8 +19,9 @@ class Triangle
       :equilateral
       side_a == side_b || side_b == side_c || side_c == side_a
       :isosceles
-      
-      
+       side_a != side_b && side_b != side_c && side_c != side_a
+      :scalene
+    end 
     
     
   end 
