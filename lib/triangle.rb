@@ -13,8 +13,12 @@ class Triangle
       raise TriangleError
     elsif
     side_a + side_b <= side_c || side_b + side_c <= side_a || side_c + side_a <= side_b
-    raise TriangleError
-    elsif
+      raise TriangleError
+    else
+      side_a && side_b == side_c
+      :equilateral
+      side_a 
+      
     
     
   end 
