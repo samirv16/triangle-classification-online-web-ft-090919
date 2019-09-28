@@ -7,7 +7,7 @@ class Triangle
     @side_c = side_c
   end
   
-  class PartnerError < StandardError
+  class TriangleError < StandardError
   end
   
 end
